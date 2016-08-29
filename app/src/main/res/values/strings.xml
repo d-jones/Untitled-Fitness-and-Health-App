@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Untitled Fitness &amp; Health App</string>
+    <string name="start_button_text">Start</string>
+    <string name="stop_button_text">Stop</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="units">Units</string>
+    <string name="user_height_hint_imp_ft">Height (ft.)</string>
+    <string name="user_height_hint_imp_in">Height (in.)</string>
+    <string name="user_height_met_cm">Height (cm.)</string>
+    <string name="user_height_hint_met_m">Height (m.)</string>
+    <string name="user_name_hint">Name</string>
+    <string name="user_unit_imp">Imperial</string>
+    <string name="user_unit_met">Metric</string>
+    <string name="user_weight_hint_imp">Weight (lbs.)</string>
+    <string name="user_weight_hint_met">Weight (kg.)</string>
+</resources>
