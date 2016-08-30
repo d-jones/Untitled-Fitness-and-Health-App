@@ -1,46 +1,32 @@
 package com.daniel.untitledfitnesshealthapp;
 
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.CompoundButton;
-import android.widget.EditText;
-import android.widget.Switch;
+import android.widget.Button;
 
-import org.w3c.dom.Text;
+/**
+ * Created by Daniel on 8/29/2016.
+ */
+public class MainActivity extends Activity implements View.OnClickListener{
 
-public class MainActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener{
+    private Button cardioButton;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Switch unitSwitch = (Switch)findViewById(R.id.unit_switch);
-        unitSwitch.setOnCheckedChangeListener(this);
+        cardioButton = (Button)findViewById(R.id.cardio_workout_button);
+        cardioButton.setOnClickListener(this);
     }
 
     @Override
-    public void onCheckedChanged(CompoundButton button, boolean isClicked){
-        EditText height1Text = (EditText)findViewById(R.id.user_height1);
-        TextInputLayout heightLabel1 = (TextInputLayout)height1Text.getParent();
-
-        EditText height2Text = (EditText)findViewById(R.id.user_height2);
-        TextInputLayout heightLabel2 = (TextInputLayout)height2Text.getParent();
-
-        EditText weightText = (EditText)findViewById(R.id.user_weight);
-        TextInputLayout weightLabel = (TextInputLayout)weightText.getParent();
-
-        if(isClicked){
-            heightLabel1.setHint("Height (m.)");
-            heightLabel2.setHint("Height (cm.)");
-            weightLabel.setHint("Weight (kg.)");
-        }
-        else{
-            heightLabel1.setHint("Height (ft.)");
-            heightLabel2.setHint("Height (in.)");
-            weightLabel.setHint("Weight (lbs.)");
+    public void onClick(View v){
+        if(v.getId() == R.id.cardio_workout_button){
+            Intent myIntent = new Intent(MainActivity.this, CardioWorkoutActivity.class);
+            startActivity(myIntent);
         }
     }
 }

@@ -92,6 +92,10 @@
         "source": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.0.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cardio_workout.xml",
+        "source": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\src\\main\\res\\layout\\activity_cardio_workout.xml"
+    },
+    {
         "merged": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_first_time.xml",
+        "source": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\src\\main\\res\\layout\\activity_first_time.xml"
     },
     {
         "merged": "C:\\Users\\Daniel\\Documents\\GitHub\\UntitledFitness&HealthApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",

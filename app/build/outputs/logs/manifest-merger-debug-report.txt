@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:2:1-20:12
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\ma
 		INJECTED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:5:5-18:19
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\AndroidManifest.xml:23:5-20
@@ -42,20 +42,32 @@ MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Daniel\Documents\Gi
 		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:10:9-40
-activity#com.daniel.untitledfitnesshealthapp.MainActivity
-ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:11:9-17:20
+activity#com.daniel.untitledfitnesshealthapp.CardioWorkoutActivity
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:11:9-14:20
+	android:label
+		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:13:13-43
 	android:name
-		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:11:19-47
+		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:12:13-50
+activity#com.daniel.untitledfitnesshealthapp.FirstTimeActivity
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:15:19-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.daniel.untitledfitnesshealthapp.MainActivity
+ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:22:9-25:20
+	android:label
+		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:24:13-38
+	android:name
+		ADDED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml:23:13-41
 uses-sdk
 INJECTED from C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\Daniel\Documents\GitHub\UntitledFitness&HealthApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\AndroidManifest.xml:21:5-23:78

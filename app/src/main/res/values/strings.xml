@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Untitled Fitness &amp; Health App</string>
+    <string name="cardio_workout">Create Cardio Workout</string>
+    <string name="create_profile">Create Profile</string>
     <string name="start_button_text">Start</string>
     <string name="stop_button_text">Stop</string>
     <string name="reset_button_text">Reset</string>
